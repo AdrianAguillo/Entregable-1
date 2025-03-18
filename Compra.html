@@ -13,11 +13,13 @@
         <h1>Mercedes-Benz</h1>
         <img src="img/Logo-MB.png" alt="Logo">
     </header>
-    <nav>
-        <a href="principal.html">Inicio</a>
-        <a href="productos.html">Productos</a>
-        <a href="servicios.html">Servicios</a>
-    </nav>
+    <div class="menu-superior">
+        <nav>
+            <a href="principal.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="servicios.html">Servicios</a>
+        </nav>
+    </div>
     <section class="formulario-compra">
 	    <h2>Portal de compra</h2>
 	    <form action="#">
@@ -38,7 +40,7 @@
 
             <label for="vehiculo">Vehículo:</label>
             <select id="vehiculo" name="vehiculo" required>
-                <option value="">Seleccione un producto</option>
+                <option value="" selected disabled>Seleccione un vehículo</option>
                 <option value="claseV-seleccion">Clase V</option>
                 <option value="vito-seleccion">Vito</option>
                 <option value="marcoPolo-seleccion">Marco Polo</option>
@@ -55,11 +57,10 @@
 
             <label for="comentario">Comentario:</label>
             <textarea id="comentario" name="comentario" rows="10" cols="40" placeholder="Escribe aquí"></textarea>
-
-	    
-            <label for="terminos-formulario">Acepto los términos</label>
-            <input type="checkbox" id="terminos" value="1" required>
-
+            
+            <label for="terminos">Acepto los términos</label>
+            <input type="checkbox" id="terminos" name="terminos" value="1" required>
+            <br>
             <input type="submit" value="Enviar">
 	    </form>
     </section>

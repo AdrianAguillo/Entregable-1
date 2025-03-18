@@ -115,3 +115,41 @@ footer h3 {
     margin: 0 auto;
     width: 50%;
 }
+
+/* Compra */
+.formulario-compra {
+    background-color: antiquewhite;
+    padding: 32px;
+    margin-top: 32px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.formulario-compra h2 {
+    font-size: 40px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.formulario-compra label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.formulario-compra input[type="text"],
+.formulario-compra input[type="tel"],
+.formulario-compra input[type="email"],
+.formulario-compra input[type="date"],
+.formulario-compra select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.formulario-compra input[type="radio"] {
+    margin-right: 8px;
+}
