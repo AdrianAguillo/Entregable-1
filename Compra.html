@@ -17,7 +17,51 @@
         <a href="Productos.html">Productos</a>
         <a href="Servicios.html">Servicios</a>
     </nav>
+    <section class="formulario-compra">
+	    <h2>Portal de compra</h2>
+	    <form action="#">
+	        <label for="nombre">Nombre:</label>
+	        <input type="text" id="nombre" name="nombre" required>
 
+	        <label for="apellidos">Apellidos:</label>
+	        <input type="text" id="apellidos" name="apellidos" required>
+
+            <label for="dni">DNI:</label>
+            <input type="text" id="dni" name="dni" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="vehiculo">Vehículo:</label>
+            <select id="vehiculo" name="vehiculo" required>
+                <option value="">Seleccione un producto</option>
+                <option value="claseV-seleccion">Clase V</option>
+                <option value="vito-seleccion">Vito</option>
+                <option value="marcoPolo-seleccion">Marco Polo</option>
+            </select>
+
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="genero">Género:</label>
+            <label for="genero-hombre">Hombre</label>
+            <input type="radio" id="genero-hombre" name="genero" value="hombre" required>
+            <label for="genero-mujer">Mujer</label>
+            <input type="radio" id="genero-mujer" name="genero" value="mujer" required>
+
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" name="comentario" rows="10" cols="40" placeholder="Escribe aquí"></textarea>
+
+	    
+            <label for="terminos-formulario">Acepto los términos</label>
+            <input type="checkbox" id="terminos" value="1" required>
+
+            <input type="submit" value="Enviar">
+	    </form>
+    </section>
     <footer>
         <div>
             <h3>Contactos</h3>
