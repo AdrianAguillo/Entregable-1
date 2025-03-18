@@ -2,7 +2,7 @@
 html {
     box-sizing: border-box;
     font-size: 100%;
-    background-color: white;
+    background-color: rgb(183, 185, 185);
 }
 
 body {
@@ -67,4 +67,51 @@ footer {
 
 footer h3 {
     margin: 0;
+}
+
+/* Principal */
+.marca {
+    display: flex;
+    align-items: center;
+    margin: 5%;
+}
+
+.primer-coche {
+    width: 30%;
+    padding: 16px;
+}
+
+.texto-marca h2 {
+    font-size: 40px;
+}
+
+.texto-marca p {
+    font-size: 20px;
+}
+
+.objetivos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.texto-objetivos {
+    width: 100%;
+    text-align: center;
+}
+
+.texto-objetivos h2 {
+    font-size: 40px;
+}
+
+.texto-objetivos p {
+    font-size: 20px;
+}
+
+.objetivos-MB {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
 }
