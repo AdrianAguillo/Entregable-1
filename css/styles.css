@@ -300,3 +300,96 @@ td {
     border: 3px solid black;
     border-radius: 5px;
 }
+
+/*Responsive móvil*/
+@media only screen and(max-width: 400px) {
+    header {
+        padding: 8px;
+    }
+
+    .menu-superior {
+        padding: 0;
+    }
+
+    .menu-superior a {
+        display: block;
+        border-radius: 0;
+        font-size: 32px;
+    }
+
+    img {
+        width: 70%;
+    }
+
+    section {
+        width: 100%;
+        margin-right: 0;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 16px 16px;
+    }
+
+    footer h3 {
+        margin: 8px 0;
+        font-size: 24px;
+    }
+
+    #navegacion {
+        font-size: 24px;
+    }
+}
+
+/*Responsive tablet*/
+@media only screen and (min-width: 401px) and
+(max-width: 960px) {
+    header {
+        padding: 30px;
+    }
+
+    .menu-superior {
+        padding: 2px;
+    }
+
+    .menu-superior a {
+        display: block;
+        border-radius: 2px;
+        font-size: 50px;
+    }
+
+    img {
+        width: 60%;
+    }
+
+    section {
+        width: 100%;
+        margin-right: 2px;
+        flex-direction: column-reverse;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 30px 30px;
+    }
+
+    footer h3 {
+        margin: 12px 0;
+        font-size: 30px;
+    }
+
+    #navegacion {
+        font-size: 50px;
+    }
+}
