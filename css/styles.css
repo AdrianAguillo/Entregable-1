@@ -250,3 +250,53 @@ td {
     color: blue;
     font-weight: bold;
 }
+
+/* Productos */
+.productos {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.texto-productos h2 {
+    font-size: 40px;
+}
+
+.texto-productos p {
+    font-size: 20px;
+}
+
+.tipos-productos {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.tipos-productos img {
+    width: 50%;
+    height: 380px;
+    object-fit: cover;
+}
+
+.tipos-productos h3 {
+    font-size: 30px;
+    margin-top: 16px;
+}
+
+.tipos-productos p {
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.claseV,
+.vito,
+.marcoPolo {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.tipos-productos img:hover {
+    border: 3px solid black;
+    border-radius: 5px;
+}
